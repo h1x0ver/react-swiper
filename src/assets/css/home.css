@@ -1,0 +1,54 @@
+.info-box {
+    background-color: #FFFFFF;
+    height: 75vh;
+    margin: 80px;
+    border-radius: 48px;
+    padding: 40px 60px 40px 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.teacher-name {
+    padding: 8px;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    line-height: 14px;
+    border-radius: 8px;
+    background-color: #EBF4FF;
+}
+
+.course-title {
+    margin-top: 32px;
+    max-width: 670px;
+    font-weight: 600;
+}
+
+.course-info-box {
+    margin-top: 32px;
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+.course-time-info span{
+    color: black;
+    font-weight: 600;
+}
+
+.price-info{
+    margin-top: 32px;
+}
+
+.price-info span {
+    font-size: 32px;
+}
+
+.banefit {
+    display: flex;
+    align-items: center;
+}
+.banefit span {
+    margin: 10px;
+}
