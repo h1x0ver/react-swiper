@@ -1,7 +1,6 @@
 import React from 'react';
 import '../assets/css/home.css'
 import CourseInfo from "../components/CourseInfo/CourseInfo";
-import CourseCard from "../components/Cards/CourseCard";
 import CourseCarousel from "../components/Slider/CourseCarousel";
 
 const Home = () => {
@@ -11,9 +10,7 @@ const Home = () => {
                <CourseInfo/>
            </div>
             <div className="courses-slider row">
-
                <CourseCarousel/>
-
             </div>
         </div>
     );
